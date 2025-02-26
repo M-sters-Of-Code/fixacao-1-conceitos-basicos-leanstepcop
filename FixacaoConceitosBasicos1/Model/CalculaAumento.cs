@@ -21,5 +21,18 @@ public static class CalculaAumento
         return valor - desconto;
     }
 
-    public static int CalculaAluguel
+    public static double CalculaAluguel(int dias, int kmIni, int kmFin)
+    {
+        double pricePerKm = 0.4;
+        double dailyPrice = 80;
+
+        double totalKm = kmIni - kmFin;
+
+        double totalPrice = (dias * dailyPrice) + (pricePerKm * totalKm);
+
+        return totalPrice;
+
+    }
+
+
 }
