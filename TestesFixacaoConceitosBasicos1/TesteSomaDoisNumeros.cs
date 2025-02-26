@@ -11,7 +11,7 @@ namespace TestesFixacaoConceitosBasicos1
     public class TesteSomaDoisNumeros
     {
         [TestMethod]
-        private void TesteSoma()
+        public void TesteSoma()
         {
             int a = 1;
             int b = 2;
