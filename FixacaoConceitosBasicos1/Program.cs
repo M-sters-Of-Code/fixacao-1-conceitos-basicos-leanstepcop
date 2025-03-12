@@ -20,3 +20,86 @@ using FixacaoConceitosBasicos1.Model;
 //Console.WriteLine(CalculaAumento.CalculaDesconto(1200));
 
 
+//while (true)
+{
+//try
+{
+//Console.WriteLine("Informe o primeiro valor");
+// int num1 = int.Parse(Console.ReadLine());
+
+//Console.WriteLine("Informe o segundo valor");
+//int num2 = int.Parse(Console.ReadLine());
+
+//onsole.WriteLine(SomaDoisNumeros.Somar(num1, num2));
+       // break;
+}
+
+//catch(Exception)
+{
+//        Console.WriteLine("Digite um valor válido");
+};
+
+}
+
+
+
+public class SomaNum
+{
+
+    static void Calculos()
+    {
+        int numConv;
+
+        Console.WriteLine("0 - Sair");
+        Console.WriteLine("1 - Somar dois números");
+        Console.WriteLine("2 - Converter um número para milimetros");
+        numConv = int.Parse(Console.ReadLine());
+
+
+        while (numConv != 0)
+        {
+        switch(numConv)
+        {
+            case 0:
+                break;
+
+            case 1:
+                Console.WriteLine("Informe o primeiro valor");
+                int num1 = int.Parse(Console.ReadLine());
+
+                Console.WriteLine("Informe o segundo valor");
+                int num2 = int.Parse(Console.ReadLine());
+
+                Console.WriteLine(SomaDoisNumeros.Somar(num1, num2));
+                break;
+
+            case 2:
+                Console.WriteLine("Digite um valor para ser convertido");
+                int numConvert = int.Parse(Console.ReadLine());
+                break;
+
+        }
+
+        }
+        
+    }
+
+
+}
+
+
+
+
+
+
+        
+    
+
+
+
+
+
+
+
+
+
