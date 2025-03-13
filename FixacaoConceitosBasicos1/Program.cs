@@ -76,7 +76,7 @@ public class SomaNum
             case 2:
                 Console.WriteLine("Digite um valor para ser convertido");
                 int numConvert = int.Parse(Console.ReadLine());
-                break;
+                    break;
 
         }
 
